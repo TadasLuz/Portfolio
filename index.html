@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <h1 class="change-color">Tadas Luzanskis</h1>
+            <img class="photo" src="img/photo.jpg" alt="Photo">
+            <div class="circle change-background-color"></div>
+        </header>
+
+        <button id="slider-btn" class="slider-btn">Completed Courses</button>
+        <div id="slider-courses" class="slider-courses">
+            <ul class="course-list">
+                <li><a href="https://www.udemy.com/course/web-projects-with-vanilla-javascript/" target="_blank">20 JS projects</a></li>
+                <li><a href="https://www.udemy.com/course/javascript-the-basics-for-beginners/" target="_blank">JS basics</a></li>
+                <li><a href="https://www.vilniuscoding.lt/mokymai/web-kurimo-mokymai/" target="_blank">WEB dev. course</a></li>
+            </ul>
+            <button id="close-slider" class="close-btn">Close</button>
+        </div>
+
+        <button id="color-btn" class="color-btn change-color"><i class="fas fa-tint"></i></button>
+        <div id="slider-color" class="slider-color">
+            <div id="white" class="white"><i class="fas fa-tint"></i></div>
+            <div id="light-green" class="light-green"><i class="fas fa-tint"></i></div>
+            <div id="orange" class="orange"><i class="fas fa-tint"></i></div>
+            <div id="salad-green" class="salad-green"><i class="fas fa-tint"></i></div>
+            <div id="blue-green" class="blue-green"><i class="fas fa-tint"></i></div>
+            <div id="dark" class="dark"><i class="fas fa-tint"></i></div>
+        </div>
+
+        <div class="container">
+            <p>I have completed WEB development training at VCS and now I'm looking for a job where I could use and improve my recently developed skills and knowledge. I am flexible, can adapt to different conditions, work in a team as well as individualy, also I'm a fast learner.</p>
+            <div class="boxes">
+                <div class="box">
+                    <div class="mobile-courses">
+                        <h3>Completed Courses</h3>
+                        <ul class="mobile-course-list">
+                            <li><a href="https://www.udemy.com/course/web-projects-with-vanilla-javascript/" target="_blank">20 JS projects</a></li><br>
+                            <li><a href="https://www.udemy.com/course/javascript-the-basics-for-beginners/" target="_blank">JS basics</a></li><br>
+                            <li><a href="https://www.vilniuscoding.lt/mokymai/web-kurimo-mokymai/" target="_blank">WEB development course</a></li>
+                        </ul>
+                    </div>
+                    <h3>Education</h3>
+                    <h4><b>2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vilnius Coding School</b></h4>
+                    <p><i>WEB development (Full-Stack) full-time training</i></p>
+                    <div class="line"></div>
+                    <h4><b>2010 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VGTU</b></h4>
+                    <p><i>Bachelor of Aviation Mechanics and Engineering</i></p>
+                </div>
+                <div class="box">
+                    <h3>Career</h3>
+                    <h4><b>2016 - 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FL Technics, UAB</b></h4>
+                    <p><i>Repair management coordinator</i></p>
+                    <div class="line"></div>
+                    <h4><b>2010 - 2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UAB "VSGA" and Olympic Casino</b></h4>
+                    <p><i>Crouper</i></p>
+                </div>
+                <div class="box">
+                    <h3>Skills</h3>
+                    <p class="skills">During my free time I'm learning JavaScript, HTML and CSS. Have basic skills in: Adobe Photoshop, HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, MySQL, WordPress, SEO, MS Office programs.<br>English language level - C1.</p>
+                </div>
+            </div>
+            <button class="contacts-btn" id="open-contacts">Contact Me</button>
+            <p class="motto">Keep pages simple and ad free!</p>
+        </div>
+
+        <div class="contacts-container" id="contacts">
+            <div class="contacts">
+                <button class="close-contacts-btn" id="close-contacts">
+                    <i class="fa fa-times"></i>
+                </button>
+                <div class="contacts-header">
+                    <h3>Contacts and GitHub link</h3>
+                </div>
+                <div class="contacts-content">
+                    <i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+37064703813">+370 647 03813</a><br><br>
+                    <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:tadasluzanskis@gmail.com">tadasluzanskis@gmail.com</a><br><br>
+                    <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/TadasLuz " target="_blank">GitHub</a><br><br>
+                    <i class="fas fa-city"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://maps.google.com/?q=Vilnius, Lithuania" target="_blank">Location</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; <span id="year"></span> T. L.</footer>
+   
+    <script src="main.js"></script>
+</body>
+</html>
